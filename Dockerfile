@@ -1,4 +1,4 @@
-FROM baseImage node:alpine3.16 As build
+FROM node:alpine3.16 As build
 WORKDIR /client
 COPY . .
 RUN npm install
